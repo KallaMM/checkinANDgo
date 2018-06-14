@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainCockpit"
+    android:background="@drawable/gradient1"
+    android:orientation="vertical"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="18dp"
+    android:paddingBottom="18dp">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        app:srcCompat="@drawable/imgg" />
+
+    <Button
+        android:id="@+id/connectbutton"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect to bluetooth" />
+
+    <Button
+        android:id="@+id/button10"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="open the door" />
+
+    <Button
+        android:id="@+id/database"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="class activity"
+        android:onClick="openactivity"/>
+
+
+    <Button
+        android:id="@+id/button5"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calendar"
+        android:onClick="opencalendar"/>
+
+    <Button
+        android:id="@+id/button7"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="log out"
+        android:onClick="openfront"/>
+
+</android.widget.LinearLayout>

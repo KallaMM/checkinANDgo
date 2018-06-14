@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calendar"
+    android:background="@drawable/gradient1"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="18dp"
+    android:paddingBottom="18dp">
+
+    <CalendarView
+        android:id="@+id/simpleCalendarView"
+        android:layout_width="fill_parent"
+        android:layout_height="327dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:firstDayOfWeek="2"
+        android:maxDate="01/01/2020"
+        android:minDate="01/01/2018"/>
+
+</RelativeLayout>

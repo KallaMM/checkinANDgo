@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Checkin&amp;Go</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="no_account_yet_create_one">No account yet? create one</string>
+    <string name="create_account">create account</string>
+    <string name="title_activity_class">ClassActivity</string>
+    <string name="print">Print</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="connect">Connect</string>
+</resources>
